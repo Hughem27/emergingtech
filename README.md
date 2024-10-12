@@ -1,6 +1,6 @@
-# emergingtech
-G00384389@atu.ie Emerging Technologies Repository
-# Trigrams Analysis Notebook
+# Emerging Technologies
+## G00384389@atu.ie Emerging Technologies Repository
+
 
 ## Introduction
 This notebook aims to demonstrate my ability in the following areas:
