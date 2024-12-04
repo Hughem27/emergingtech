@@ -47,3 +47,11 @@ This notebook aims to demonstrate my ability in the following areas:
 | T2.5 |  |
 | T2.6 |  |
 
+# Eliza Chatbot
+### Abstraction
+Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the chat  Developed from 1964-1967 at MIT by Joseph Weizenbaum[1]
+
+
+
+# References
+[1]: https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/
