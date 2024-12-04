@@ -49,7 +49,7 @@ This notebook aims to demonstrate my ability in the following areas:
 
 # Eliza Chatbot
 ### Abstraction
-Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the chat  Developed from 1964-1967 at MIT by Joseph Weizenbaum[1]
+Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza. Developed from 1964-1967 at MIT by Joseph Weizenbaum [1]
 
 
 
