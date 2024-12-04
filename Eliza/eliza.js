@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function addMessage(sender, message) {
     const messageElement = document.createElement("div");
     messageElement.textContent = `${sender}: ${message}`;
+    messageElement.classList.add("message", sender.toLowerCase());
     conversation.appendChild(messageElement);
     conversation.scrollTop = conversation.scrollHeight; 
   }

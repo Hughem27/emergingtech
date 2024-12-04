@@ -73,3 +73,20 @@ body {
 .send-button:hover {
   background-color: #45a049;
 }
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.you {
+  background-color: #d1e7dd;
+  align-self: flex-start;
+}
+
+.eliza {
+  background-color: #f8d7da;
+  align-self: flex-end;
+}
