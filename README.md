@@ -1,15 +1,28 @@
 # G00384389@atu.ie Emerging Technologies Repository
 
 ## Introduction
-This notebook aims to demonstrate my ability in the following areas:
+This notebook aims to demonstrate my ability in the following areas:<br>
+- Detect new and emerging technologies in computing through reputable sources.<br>
+- Contextualize an emerging technology by identifying its origins and proponents.<br>
+- Research an emerging technology in order to use it.<br>
+- Implement a solution to a computing problem using an emerging technology.<br>
 
--Detect new and emerging technologies in computing through reputable sources.
+In todays world the use of "Artificial Intelligence" is crucial to the everday life and only getting more and more frequent. In this notebook we will be exploring some of the origins of todays "Artificial Intelligence" and how it got there.
 
--Contextualize an emerging technology by identifying its origins and proponents.
+# Trigrams
+**What is a Trigram?**<br>
+A trigram is a case of n-gram. Where the count (n) is 3,</sup><sup>[[1]](#reference-1)</sup> Hence Tri-Gram. Trigrams are usually used for statistical analysis of texts in lanugauge processing. Trigrams help capture patterns in language. Example,the sequence "THE" appears often, this indicates that these characters often appear together in English, which the model can use to predict or generate similar patterns. Breaking text into trigrams, language models achieve a good balance between predictive accuracy and computational efficiency. This approach makes trigrams valuable for applications like text generation, speech recognition, and basic language analysis<sup>[[2]](#reference-2)</sup><br><br>
+Trigrams are a concept used in Natural Language Processing "NLP" rather than being a specific type of model like large language models "LLMs".
 
--Research an emerging technology in order to use it.
 
--Implement a solution to a computing problem using an emerging technology.
+**Trigrams in Text Classification and Sentiment Analysis**<br>
+In the likes of spam detection or sentiment analysis, trigrams serve as features that capture the context and relationships among words, leading to more accurate classifications.<sup>[[3]](#reference-3)</sup> For example, the presence of certain trigrams can indicate a positive or negative sentiment in a text. 
+
+In a spam filtering application, a machine learning model might be trained on a dataset of emails, with trigrams used to represent three-word sequences within each message. The model would be trained to recognize patterns of language use that correspond to spam messages, such as frequent use of certain keywords or phrases. By using trigrams as the basis for feature extraction in such a model, it can be more effective at detecting patterns and making accurate predictions.
+
+**NLP VS LLM**<br>
+Trigrams are an NLP concept and tool used in simpler statistical models. They are not LLMs themselves but are foundational to the field of NLP, which includes LLMs as more advanced successors. NLPs paved the way for LLM's like we have today, the likes of "Trigrams 'n' Tags" <sup>[[4]](#reference-4)</sup> made it possible for the likes of GPT and Claude to exist.
+
 
 # Tasks
 ## Task 1 - Third-order letter approximation model
@@ -71,9 +84,15 @@ This notebook aims to demonstrate my ability in the following areas:
 
 # Eliza Chatbot
 ### Abstraction
-Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza. Developed from 1964-1967 at MIT by Joseph Weizenbaum [1]
-
+Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza. Developed from 1964-1967 at MIT by Joseph Weizenbaum 
 
 
 # References
-[1]: https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/
+| Reference     | URL     | Usage | 
+|--------------|-------|-------|
+| Trigram Research | https://en.wikipedia.org/wiki/Trigram <br> https://web.stanford.edu/~jurafsky/slp3/3.pdf |[<a id="reference-1">1</a>]<br> [<a id="reference-2">2</a>]|
+| Trigram Research |https://thinklike.ai/artificial-intelligence/what-is-trigram <br> https://www.geeksforgeeks.org/nlp-trigramsntags-tnt-tagging/ |[<a id="reference-3">3</a>]<br> [<a id="reference-4">4</a>]|
+| Eliza | https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/ ||
+| GitHub | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax ||
+
+
