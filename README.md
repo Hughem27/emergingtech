@@ -94,5 +94,7 @@ Eliza was "the first AI". Elize was developed to explore communication between h
 | Trigram Research |https://thinklike.ai/artificial-intelligence/what-is-trigram <br> https://www.geeksforgeeks.org/nlp-trigramsntags-tnt-tagging/ |[<a id="reference-3">3</a>]<br> [<a id="reference-4">4</a>]|
 | Eliza | https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/ ||
 | GitHub | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax ||
-
+| GPT | https://chatgpt.com/  | Help with understading concepts |
+|   |   |
+|   |   |
 
