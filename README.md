@@ -12,7 +12,7 @@ This notebook aims to demonstrate my ability in the following areas:
 -Implement a solution to a computing problem using an emerging technology.
 
 # Tasks
-## Task 1
+## Task 1 - Third-order letter approximation model
 **Task 1 Definition**<br>
 >Select five free English works in Plain Text UTF8 format from Project Gutenberg. Use them to create a model of the English language as follows. Remove any preamble and postamble. Remove all characters except for (ASCII) letters (uppercase and lowercase), full stops, and spaces. Make all letters uppercase.
 >Next create a trigram model by counting the number of times each sequence of three characters (that is, each trigram) appears. You can design your own data structure for storing the results but explain your design and its rationale in your answer.
@@ -29,7 +29,7 @@ This notebook aims to demonstrate my ability in the following areas:
 | T1.6 | Finally I saved the trigram model to a text file.  |
 
 
-## Task 2
+## Task 2 - Third-order letter approximation generation
 **Task 2 Definition**<br>
 >Use your model from Task 1 to generate a string of 10,000 characters. Start with the string TH.
 >Generate each next character by looking at the previous two characters.
@@ -39,13 +39,35 @@ This notebook aims to demonstrate my ability in the following areas:
 ### My Approach
 | Step     | Description     |
 |--------------|--------------|
-| T2.0 |  |
-| T2.1 |  |
-| T2.2 |  |
-| T2.3 |  |       
-| T2.4 |  |
-| T2.5 |  |
-| T2.6 |  |
+| T2.1 | Generate the next character based on the previous. Use the counts as weights |
+| T2.2 | Generate 10,000 characters |
+
+
+## Task 3 - Analyze your model
+**Task 3 Definition**<br>
+>Copy the list of English words available in words.txt in this repository to your own repository. <br>
+>Use it to determine the percentage of words in your 10,000 characters that are actual words in the English language.
+
+### My Approach
+| Step     | Description     |
+|--------------|--------------|
+| T3.1 | Firstly we'll load in the words file then store them   |
+| T3.2 | We'll then split them up and ensure that is all lowercase for processing |
+| T3.3 | Count and return the amound of valid words |
+| T3.4 | Calculate Percentage |   
+
+
+
+## Task 4 - Export your model as JSON
+**Task 4 Definition**<br>
+>Export your model as JavaScript Object Notation (JSON), saving it in your repository as trigrams.json.
+
+### My Approach
+| Step     | Description     |
+|--------------|--------------|
+| T4.1 | Save to  JavaScript Object Notation and save in repo as trigrams.json   |
+
+
 
 # Eliza Chatbot
 ### Abstraction
