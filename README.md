@@ -84,16 +84,29 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 
 # Eliza Chatbot
 ### Abstraction
-Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza. Developed from 1964-1967 at MIT by Joseph Weizenbaum 
+Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza.<sup>[[5]](#reference-5)</sup> Developed from 1964-1967 at MIT by Joseph Weizenbaum.
 
+This early natural language processing program was written in the 1960's. It was been created to emphasise how superficial computer to human communication was at that time. However when it was realsed and installed on personal computers, humans found it quite engaging.
+
+**What does Eliza do?**<br>
+As mentioned using "pattern matching" and substitution methodology, the program gives canned responses that made early users feel they were talking to someone who understood their input. The program was limited by the scripts that were in the program. Many variations on the original scripts were made as amateur coders played around with the fairly simple code.
+
+Perhaps the most well known variation was called DOCTOR.<sup>[[6]](#reference-6)</sup> This was made to respond like a Rogerian psychotherapist. In this instance, the therapist "reflects" on questions by turning the questions back at the patient. DOCTOR was intended to help people dealing with mental health issues and depression.
+
+ELIZA was one of the first "chatterbots", this was trimmed to "chatbot". It was also an early test case for the Turing Test, a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. By today's standards ELIZA fails very quickly if you ask it a few complex questions.
+
+## Eliza User Flow
+<p align="center">
+  <img src="./Eliza/Eliza Chatbot User Flow.png" />
+</p>
 
 # References
 | Reference     | URL     | Usage | 
 |--------------|-------|-------|
 | Trigram Research | https://en.wikipedia.org/wiki/Trigram <br> https://web.stanford.edu/~jurafsky/slp3/3.pdf |[<a id="reference-1">1</a>]<br> [<a id="reference-2">2</a>]|
 | Trigram Research |https://thinklike.ai/artificial-intelligence/what-is-trigram <br> https://www.geeksforgeeks.org/nlp-trigramsntags-tnt-tagging/ |[<a id="reference-3">3</a>]<br> [<a id="reference-4">4</a>]|
-| Eliza | https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/ ||
-| GitHub | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax ||
+| Eliza | https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/ <br> https://web.njit.edu/~ronkowit/eliza.html |[<a id="reference-5">5</a>]<br>[<a id="reference-6">6</a>] |
+| GitHub | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax |Formatting|
 | GPT | https://chatgpt.com/  | Help with understading concepts |
 |   |   |
 |   |   |
