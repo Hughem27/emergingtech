@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   
   //  define basic keywords for sentiment analysis
-  const positiveKeywords = ["up","amazining", "upbeat","good", "great","happy", "fantastic", "positive", "love"];
-  const negativeKeywords = ["down","awful","sad", "negative", "bad", "terrible", "dislike","hate"];
+  const positiveKeywords = ["up","amazining", "like" , "upbeat","good", "great","happy", "fantastic", "positive", "love", "joyful", "excited", "pleased", "content"];
+  const negativeKeywords = ["down","awful","sad", "negative", "bad", "terrible", "dislike","hate","miserable", "depressed", "unhappy", "angry", "frustrated"];;
 
   // detect user sentiment based on keywords
   function detectSentiment(message) {
