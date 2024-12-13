@@ -100,6 +100,8 @@ ELIZA was one of the first "chatterbots", this was trimmed to "chatbot". It was 
   <img src="./Eliza/Eliza Chatbot User Flow.png" />
 </p>
 
+<hr><br><br>
+
 # References
 | Reference     | URL     | Usage | 
 |--------------|-------|-------|

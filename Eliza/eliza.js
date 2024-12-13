@@ -22,11 +22,30 @@ document.addEventListener("DOMContentLoaded", () => {
     { pattern: /.*/, response: "Can you tell me more?" },
   ];
 
+  const reflections = {
+    "i": "you",
+    "i am": "you are",
+    "i'm": "you are",
+    "im": "you are",
+    "my": "your",
+    "me": "you",    
+    "you are": "I am",
+    "you": "me",
+    "your": "my",
+    "youre": "my",
+    "you're": "my",
+  };
+
+  function reflect(fragment) {
+    return fragment.split(" ").map(word => reflections[word.toLowerCase()] || word).join(" ");
+  }
+
   function getResponse(userMessage) {
     for (let i = 0; i < elizaResponses.length; i++) {
       const match = userMessage.match(elizaResponses[i].pattern);
       if (match) {
-        return elizaResponses[i].response.replace("$1", match[1] || "");
+        const response = elizaResponses[i].response.replace("$1", reflect(match[1] || ""));
+        return response;
       }
     }
     return "I'm not sure what you mean."; 
