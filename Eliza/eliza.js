@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const userInput = document.getElementById("user-input");
   const sendButton = document.getElementById("send-button");
 
+  // define some basic Eliza responses
   const elizaResponses = [
     { pattern: /hello|hi|hey/i, response: "Hello, How can I help you today?" },
     { pattern: /how are you|what's up/i, response: "I'm Eliza, I don't have feelings but I'm here to help you with yours." },
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { pattern: /.*/, response: "Can you tell me more?" },
   ];
 
+  // define reflections to make the conversation more natural
   const reflections = {
     "i": "you",
     "i am": "you are",
@@ -35,12 +37,42 @@ document.addEventListener("DOMContentLoaded", () => {
     "youre": "my",
     "you're": "my",
   };
+  
+  //  define basic keywords for sentiment analysis
+  const positiveKeywords = ["up","amazining", "upbeat","good", "great","happy", "fantastic", "positive", "love"];
+  const negativeKeywords = ["down","awful","sad", "negative", "bad", "terrible", "dislike","hate"];
 
+  // detect user sentiment based on keywords
+  function detectSentiment(message) {
+    const lowerCaseMessage = message.toLowerCase();
+    for (const word of positiveKeywords) {
+      if (lowerCaseMessage.includes(word)) {
+        return "positive";
+      }
+    }
+    for (const word of negativeKeywords) {
+      if (lowerCaseMessage.includes(word)) {
+        return "negative";
+      }
+    }
+    return "neutral";
+  }
+
+  // relfect the user's input in the response to be more human
   function reflect(fragment) {
     return fragment.split(" ").map(word => reflections[word.toLowerCase()] || word).join(" ");
   }
 
   function getResponse(userMessage) {
+    const sentiment = detectSentiment(userMessage);
+
+    // Respond based on sentiment
+    if (sentiment === "positive") {
+      return "Thats great! Plaese tell me more about it.";
+    } else if (sentiment === "negative") {
+      return "I'm sorry to hear you're feeling this way. Can you share more about what's troubling you and how I can help?";
+    }
+
     for (let i = 0; i < elizaResponses.length; i++) {
       const match = userMessage.match(elizaResponses[i].pattern);
       if (match) {
@@ -48,9 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
         return response;
       }
     }
-    return "I'm not sure what you mean."; 
+    return "I don't follow, can you please rephrase."; 
   }
 
+  // add a message into the conversation
   function addMessage(sender, message) {
     const messageElement = document.createElement("div");
     messageElement.textContent = `${sender}: ${message}`;
@@ -58,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
     conversation.appendChild(messageElement);
     conversation.scrollTop = conversation.scrollHeight; 
   }
-
+  // handle user message
   function handleUserInput() {
     const userMessage = userInput.value.trim();
     if (userMessage) {
