@@ -25,6 +25,8 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 
 
 # Tasks
+
+(Tasks_Diagram.png)
 ## Task 1 - Third-order letter approximation model
 **Task 1 Definition**<br>
 >Select five free English works in Plain Text UTF8 format from Project Gutenberg. Use them to create a model of the English language as follows. Remove any preamble and postamble. Remove all characters except for (ASCII) letters (uppercase and lowercase), full stops, and spaces. Make all letters uppercase.
