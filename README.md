@@ -7,11 +7,11 @@ This notebook aims to demonstrate my ability in the following areas:<br>
 - Research an emerging technology in order to use it.<br>
 - Implement a solution to a computing problem using an emerging technology.<br>
 
-In todays world the use of "Artificial Intelligence" is crucial to the everday life and only getting more and more frequent. In this notebook we will be exploring some of the origins of todays "Artificial Intelligence" and how it got there.
+In todays world the use of "Artificial Intelligence" is crucial to the everyday life and only getting more and more frequent. In this notebook we will be exploring some of the origins of todays "Artificial Intelligence" and how it got there.
 
 # Trigrams
 **What is a Trigram?**<br>
-A trigram is a case of n-gram. Where the count (n) is 3,</sup><sup>[[1]](#reference-1)</sup> Hence Tri-Gram. Trigrams are usually used for statistical analysis of texts in lanugauge processing. Trigrams help capture patterns in language. Example,the sequence "THE" appears often, this indicates that these characters often appear together in English, which the model can use to predict or generate similar patterns. Breaking text into trigrams, language models achieve a good balance between predictive accuracy and computational efficiency. This approach makes trigrams valuable for applications like text generation, speech recognition, and basic language analysis<sup>[[2]](#reference-2)</sup><br><br>
+A trigram is a case of n-gram. Where the count (n) is 3,</sup><sup>[[1]](#reference-1)</sup> Hence Tri-Gram. Trigrams are usually used for statistical analysis of texts in language processing. Trigrams help capture patterns in language. Example,the sequence "THE" appears often, this indicates that these characters often appear together in English, which the model can use to predict or generate similar patterns. Breaking text into trigrams, language models achieve a good balance between predictive accuracy and computational efficiency. This approach makes trigrams valuable for applications like text generation, speech recognition, and basic language analysis<sup>[[2]](#reference-2)</sup><br><br>
 Trigrams are a concept used in Natural Language Processing "NLP" rather than being a specific type of model like large language models "LLMs".
 
 
@@ -37,7 +37,7 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 | T1.1 | I then read the texts into file and stored them in list 'texts' |
 | T1.2 | I then combined all the text to one file 'combined_text'  |
 | T1.3 | I then cleaned the text the text       
-| T1.4 | With the cleaned text I generated a Trigram Model of the English lanuguage  |
+| T1.4 | With the cleaned text I generated a Trigram Model of the English language  |
 | T1.5 | Next I sorted the trigrams and stored them in descending order based on frequency.   |
 | T1.6 | Finally I saved the trigram model to a text file.  |
 
@@ -66,7 +66,7 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 |--------------|--------------|
 | T3.1 | Firstly we'll load in the words file then store them   |
 | T3.2 | We'll then split them up and ensure that is all lowercase for processing |
-| T3.3 | Count and return the amound of valid words |
+| T3.3 | Count and return the amount of valid words |
 | T3.4 | Calculate Percentage |   
 
 
@@ -84,9 +84,9 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 
 # Eliza Chatbot
 ### Abstraction
-Eliza was "the first AI". Elize was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza.<sup>[[5]](#reference-5)</sup> Developed from 1964-1967 at MIT by Joseph Weizenbaum.
+Eliza was "the first AI". Eliza was developed to explore communication between humans and machines. The aim of Eliza was to simulate a conversation through use of pattern matching and substitution methodology, while this sometime produced conversations that seemed to display understanding from Eliza, there was in fact no actual intelligent understanding behind the replies from the Eliza.<sup>[[5]](#reference-5)</sup> Developed from 1964-1967 at MIT by Joseph Weizenbaum.
 
-This early natural language processing program was written in the 1960's. It was been created to emphasise how superficial computer to human communication was at that time. However when it was realsed and installed on personal computers, humans found it quite engaging.
+This early natural language processing program was written in the 1960's. It was been created to emphasize how superficial computer to human communication was at that time. However when it was released and installed on personal computers, humans found it quite engaging.
 
 **What does Eliza do?**<br>
 As mentioned using "pattern matching" and substitution methodology, the program gives canned responses that made early users feel they were talking to someone who understood their input. The program was limited by the scripts that were in the program. Many variations on the original scripts were made as amateur coders played around with the fairly simple code.
@@ -109,7 +109,7 @@ ELIZA was one of the first "chatterbots", this was trimmed to "chatbot". It was 
 | Trigram Research |https://thinklike.ai/artificial-intelligence/what-is-trigram <br> https://www.geeksforgeeks.org/nlp-trigramsntags-tnt-tagging/ |[<a id="reference-3">3</a>]<br> [<a id="reference-4">4</a>]|
 | Eliza | https://news.harvard.edu/gazette/story/2012/09/alan-turing-at-100/ <br> https://web.njit.edu/~ronkowit/eliza.html |[<a id="reference-5">5</a>]<br>[<a id="reference-6">6</a>] |
 | GitHub | https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax |Formatting|
-| GPT | https://chatgpt.com/  | Help with understading concepts |
+| GPT | https://chatgpt.com/  | Help with understanding concepts |
 |   |   |
 |   |   |
 
