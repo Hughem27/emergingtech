@@ -25,6 +25,7 @@ Trigrams are an NLP concept and tool used in simpler statistical models. They ar
 
 
 # Tasks
+## Tasks Flow Diagram
 <img src="./Tasks_Diagram.png" align="centre"/>
 
 ## Task 1 - Third-order letter approximation model
